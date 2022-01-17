@@ -1,0 +1,14 @@
+#!/bin/bash
+
+pushd "/home/$(whoami)/.dotfiles"
+
+if [[ -z $STOW_FOLDERS ]]; then
+    STOW_FOLDERS="tmux,vim,zsh"
+fi
+
+for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
+do
+    stow -D $folder
+    stow $folder
+done
+popd
