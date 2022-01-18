@@ -1,14 +1,3 @@
-"        _
-" __   _(_)_ __ ___  _ __ ___
-" \ \ / / | '_ ` _ \| '__/ __|
-"  \ V /| | | | | | | | | (__
-"   \_/ |_|_| |_| |_|_|  \___|
-
-
-" Specify VIM colors from ~/.vim/colors/
-" https://github.com/Yggdroot/duoduo
-" colorscheme duoduo
-
 " Enable syntax highlighting
 syntax enable
 
