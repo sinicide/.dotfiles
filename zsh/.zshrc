@@ -89,6 +89,7 @@ plugins=(
     colored-man-pages 
     zsh-autosuggestions
     dotenv
+    kubectl
 )
 
 
