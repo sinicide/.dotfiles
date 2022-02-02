@@ -88,6 +88,7 @@ plugins=(
     sudo 
     colored-man-pages 
     zsh-autosuggestions
+    dotenv
 )
 
 
