@@ -79,6 +79,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'frazrepo/vim-rainbow'
+    Plug 'ap/vim-css-color'
 
 call plug#end()
 
