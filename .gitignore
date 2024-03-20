@@ -3,3 +3,5 @@ vim/.vim/plugged
 vim/.vim/undodir
 plug.vim
 tmux/.tmux/plugins/tpm**
+zsh/.zsh_history
+**/.ssh/**
