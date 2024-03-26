@@ -5,6 +5,12 @@ Repo for my dotfiles, using `stow` to manage symlinks.
 - git
 - [stow](https://www.gnu.org/software/stow/)
 - [oh-my-zsh](https://ohmyz.sh/)
+- vim/nvim
+- fzf
+- zoxide
+- tmux
+- xsel / xclip (x11)
+- wl-clipboard (wayland)
 
 ## Install (default)
 ```
@@ -24,4 +30,12 @@ export STOW_FOLDERS="vim,tmux,zsh,personal"
 ```
 cd ~
 ./dotfiles/remove
+```
+
+## Installing Tmux Plugin Manager
+If deploying Tmux configs, you'll need the [TPM](https://github.com/tmux-plugins/tpm)
+
+```
+mkdir -P ~/.tmux/plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
