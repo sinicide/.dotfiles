@@ -6,4 +6,3 @@ tmux/.tmux/plugins/tpm**
 zsh/.zsh_history
 **/.ssh/**
 nvim/.config/nvim/undodir
-nvim/.config/nvim/lazy-lock.json
