@@ -127,7 +127,7 @@ setopt INC_APPEND_HISTORY
 setopt EXTENDED_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
-setopt CORRECT_ALL
+setopt CORRECT
 
 # aliases
 alias dmesg="dmesg -T"
