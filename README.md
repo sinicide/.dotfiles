@@ -11,6 +11,7 @@ Repo for my dotfiles, using `stow` to manage symlinks.
 - tmux
 - xsel / xclip (x11)
 - wl-clipboard (wayland)
+- ripgrep
 
 ## Install (default)
 ```
@@ -32,10 +33,24 @@ cd ~
 ./dotfiles/remove
 ```
 
-## Installing Tmux Plugin Manager
-If deploying Tmux configs, you'll need the [TPM](https://github.com/tmux-plugins/tpm)
+## Tmux Installation
+Guidance on configuring Tmux. Plugin Manager here is [TPM](https://github.com/tmux-plugins/tpm)
 
 ```
 mkdir -P ~/.tmux/plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+### Plugins
+- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+
+## Nvim Installation
+Guidance on configuring nvim. Plugin Manager of choice here is [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+### Plugins
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-telescope/telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [loctvl842/monokai-pro](https://github.com/loctvl842/monokai-pro.nvim) (Theme)
+- [mbbill/undotree](https://github.com/mbbill/undotree)
+- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
