@@ -2,7 +2,7 @@
 vim/.vim/plugged
 vim/.vim/undodir
 plug.vim
-tmux/.tmux/plugins/tpm**
+tmux/.tmux/plugins
 zsh/.zsh_history
 **/.ssh/**
 nvim/.config/nvim/undodir
