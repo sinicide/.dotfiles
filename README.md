@@ -25,10 +25,11 @@ git clone <repo>
 
 ## Install (specific)
 
-We can export specific items we want to symlink, by default only `vim` and `zsh` directories are expected, you can manually specify others by exporting `STOW_FOLDERS` environment variable with comma separated list. This can allow you to add additional directories for personal/sensitive configs.
+We can export specific items we want to symlink, by default only `nvim` and `zsh` directories are expected, you can manually specify others by exporting `STOW_FOLDERS` environment variable with comma separated list. This can allow you to add additional directories for personal/sensitive configs.
+You can also add personal or work specific folders with this too.
 
 ```
-export STOW_FOLDERS="vim,tmux,zsh,personal"
+export STOW_FOLDERS="nvim,tmux,zsh,alacritty"
 ./.dotfiles/install
 ```
 
