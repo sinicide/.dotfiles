@@ -21,7 +21,7 @@ set -g pane-active-border-style 'fg=#fc9867'
 # left status bar
 # leaving this empty, as I don't have a good use for it
 set-option -g status-left-style 'bg=#19181a'
-set-option -g status-left ''
+set-option -g status-left ' '
 
 # right status bar
 set-option -g status-right-length 40
