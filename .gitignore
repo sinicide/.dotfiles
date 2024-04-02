@@ -1,7 +1,5 @@
 .gitconfig
-vim/.vim/plugged
-vim/.vim/undodir
-plug.vim
+vim/**
 tmux/.tmux/plugins
 zsh/.zsh_history
 **/.ssh/**
