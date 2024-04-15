@@ -3,12 +3,11 @@
 pushd "$HOME/.dotfiles"
 
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="nvim,zsh"
+    STOW_FOLDERS="nvim,zsh,tmux"
 fi
 
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
-    stow -D $folder
-    stow $folder
+    stow -v -R -t "$HOME" "$folder"
 done
 popd
