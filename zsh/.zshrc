@@ -133,3 +133,15 @@ setopt CORRECT
 alias dmesg="dmesg -T"
 alias tree="tree -Csu"
 alias mkdir="mkdir -pv"
+alias reload="source ~/.zshrc"
+alias vim="nvim"
+
+if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+    alias copy-to-clipboard="wl-copy -n"
+else
+    alias copy-to-clipboard="xclip -selection clipboard"
+fi
+
+# bindkeys
+bindkey "^[[A" history-search-backward
+bindkey "^[[B" history-search-forward
