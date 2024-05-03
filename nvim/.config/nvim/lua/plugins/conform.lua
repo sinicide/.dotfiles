@@ -12,7 +12,6 @@ return {
 				scss = { "prettier" },
 				sass = { "prettier" },
 				less = { "prettier" },
-				html = { "prettier" },
 				json = { "prettier" },
 				yaml = { "prettier" },
 				markdown = { "prettier" },
