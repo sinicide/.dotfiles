@@ -47,6 +47,7 @@ return {
 					"htmlhint",
 					"stylelint",
 					"yamllint",
+					"gdtoolkit",
 				},
 			})
 		end,
