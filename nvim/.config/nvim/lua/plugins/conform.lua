@@ -19,6 +19,7 @@ return {
 				python = { "isort", "black" },
 				jinja = { "djlint" },
 				go = { "golines", "djlint" },
+				gdscript = { "gdformat" },
 			},
 			format_on_save = {
 				async = false,
