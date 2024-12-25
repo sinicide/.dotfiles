@@ -18,8 +18,9 @@ return {
 				lua = { "stylua" },
 				python = { "isort", "black" },
 				jinja = { "djlint" },
-				go = { "golines", "djlint" },
+				go = { "goimports" },
 				gdscript = { "gdformat" },
+				terraform = { "terraform_fmt" },
 			},
 			format_on_save = {
 				async = false,
