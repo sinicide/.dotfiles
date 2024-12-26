@@ -21,7 +21,7 @@ return {
 					"ansiblels",
 					"gopls",
 					"jdtls",
-					"tsserver",
+					"ts_ls",
 					"lua_ls",
 					"basedpyright",
 					"terraformls",
