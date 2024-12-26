@@ -18,7 +18,7 @@ return {
 				lua = { "stylua" },
 				python = { "isort", "black" },
 				jinja = { "djlint" },
-				go = { "goimports" },
+				go = { "gofmt", "goimports" },
 				gdscript = { "gdformat" },
 				terraform = { "terraform_fmt" },
 			},
