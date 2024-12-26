@@ -3,12 +3,10 @@ return {
 		"neovim/nvim-lspconfig",
 		event = { "BufReadPre", "BufNewFile" },
 		dependencies = {
-			"hrsh7th/cmp-nvim-lsp",
+			"saghen/blink.cmp",
 		},
 		config = function()
 			local lspconfig = require("lspconfig")
-
-			local cmp_nvim_lsp = require("cmp_nvim_lsp")
 
 			local keymap = vim.keymap
 			local opts = { noremap = true, silent = true }
@@ -53,7 +51,7 @@ return {
 				keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under cursor
 			end
 
-			local capabilities = cmp_nvim_lsp.default_capabilities()
+			local capabilities = require("blink.cmp").get_lsp_capabilities()
 
 			-- configure lua lang server
 			lspconfig["lua_ls"].setup({
@@ -99,7 +97,7 @@ return {
 			})
 
 			-- configure javascript lang server
-			lspconfig["tsserver"].setup({
+			lspconfig["ts_ls"].setup({
 				capabilities = capabilities,
 				on_attach = on_attach,
 			})
