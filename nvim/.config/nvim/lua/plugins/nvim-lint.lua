@@ -10,7 +10,7 @@ return {
 			python = { "pylint" },
 			ansible = { "ansible-lint" },
 			terraform = { "tflint" },
-			go = { "golangci-lint" },
+			go = { "golangcilint" },
 			yaml = { "yamllint" },
 			dockerfile = { "hadolint" },
 			sh = { "shellcheck" },
