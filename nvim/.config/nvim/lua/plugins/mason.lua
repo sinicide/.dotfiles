@@ -48,6 +48,7 @@ return {
 					"stylelint",
 					"yamllint",
 					"gdtoolkit",
+					"delve",
 				},
 			})
 		end,
