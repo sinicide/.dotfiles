@@ -25,6 +25,8 @@ return {
 					"lua_ls",
 					"basedpyright",
 					"terraformls",
+					"arduino_language_server",
+					"clangd",
 				},
 			})
 
