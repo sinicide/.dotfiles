@@ -76,6 +76,14 @@ Guidance on configuring nvim. Plugin Manager of choice here is [lazy.nvim](https
 - [stevearc/conform](https://github.com/stevearc/conform.nvim)
 - [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint)
 
+## Oh My Zsh
+
+Some of the plugins require extra steps to install
+
+### Plugins
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
 ## References
 
 Giving credit to those who've inspired my dotfiles setup, workflow and configs
