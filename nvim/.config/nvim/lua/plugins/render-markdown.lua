@@ -10,6 +10,15 @@ return {
 	config = function()
 		require("render-markdown").setup({
 			completions = { blink = { enabled = true } },
+			anti_conceal = {
+				enabled = true,
+				ignore = {
+					code_background = true,
+					sign = true,
+				},
+				above = 0,
+				below = 0,
+			},
 		})
 	end,
 }
