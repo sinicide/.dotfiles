@@ -136,6 +136,20 @@ alias mkdir="mkdir -pv"
 alias reload="source ~/.zshrc"
 alias vim="nvim"
 
+# git aliases
+alias gi="git init"
+alias gcl="git clone"
+alias gs="git status --short"
+alias gd="git diff"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gu="git pull"
+alias gl="git log --all --graph ---pretty=format:'%C(magenta)%h %C(white) %an  %ar%C(auto)  %D%n%s%n'"
+alias gb="git branch"
+alias gwl="git worktree list"
+alias gwa="git worktree add"
+
 if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
     alias copy-to-clipboard="wl-copy -n"
 else
