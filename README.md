@@ -34,6 +34,13 @@ export STOW_FOLDERS="nvim,tmux,zsh,alacritty"
 ./.dotfiles/install
 ```
 
+or one-offs when you add a new configuration directory
+
+```
+export STOW_FOLDERS=personal
+./.dotfiles/install
+```
+
 ## Remove
 
 ```
