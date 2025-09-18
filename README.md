@@ -91,6 +91,14 @@ Some of the plugins require extra steps to install
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
+## Adding submodule repos
+
+This can be used as a way to add your own personal/private configs for example if you were to create a work/personal directory.
+
+```
+git submodule add git@github.com:sinicide/<private-repo>.git private
+```
+
 ## References
 
 Giving credit to those who've inspired my dotfiles setup, workflow and configs
