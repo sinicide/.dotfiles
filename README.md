@@ -15,6 +15,7 @@ Repo for my dotfiles, using `stow` to manage symlinks.
 - wl-clipboard (wayland)
 - ripgrep
 - npm (for some nvim plugins)
+- go (for go linters in nvim)
 
 ## Install (default)
 
