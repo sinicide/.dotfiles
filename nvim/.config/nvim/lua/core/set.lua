@@ -35,6 +35,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.iskeyword:append("-")
 vim.opt.cursorline = true
+vim.opt.pumheight = 10
 --netrw
 vim.g.netrw_keepdir = 0
 vim.g.netrw_winsize = 30
