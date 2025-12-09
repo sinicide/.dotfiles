@@ -5,3 +5,5 @@ export EDITOR=vim
 export GIT_EDITOR=vim
 export FZF_DEFAULT_OPTS="--height 98% --layout reverse --preview-window=border-sharp,bottom"
 export FZF_CTRL_T_OPTS="--preview 'cat -n {}'"
+export GOPATH=$HOME/go/bin
+export PATH=$PATH:$GOPATH
