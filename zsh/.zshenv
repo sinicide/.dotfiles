@@ -7,3 +7,4 @@ export FZF_DEFAULT_OPTS="--height 98% --layout reverse --preview-window=border-s
 export FZF_CTRL_T_OPTS="--preview 'cat -n {}'"
 export GOPATH=$HOME/go/bin
 export PATH=$PATH:$GOPATH
+export GPG_TTY=$(tty)
