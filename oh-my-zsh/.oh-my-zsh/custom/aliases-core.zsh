@@ -1,0 +1,5 @@
+alias dmesg="dmesg -T"
+alias tree="tree -Csu"
+alias mkdir="mkdir -pv"
+alias reload="source ~/.zshrc"
+alias vim="nvim"
